@@ -1,0 +1,36 @@
+{
+  "name": "next_boilerplate",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "node": ">=10.16.3"
+  },
+  "scripts": {
+    "dev": "NODE_PATH=. next dev",
+    "export": "NODE_PATH=. next export",
+    "build": "NODE_PATH=. NODE_ENV=dev next build",
+    "start": "NODE_PATH=. next start",
+    "analyze": "cross-env BUNDLE_ANALYZE=both next build",
+    "analyze:server": "cross-env BUNDLE_ANALYZE=server next build",
+    "analyze:client": "cross-env BUNDLE_ANALYZE=browser next build"
+  },
+  "dependencies": {
+    "@arwidt/fluxtools": "^0.2.3",
+    "atob": "^2.1.2",
+    "btoa": "^1.2.1",
+    "isomorphic-unfetch": "^3.0.0",
+    "next": "9.1.2",
+    "nprogress": "^0.2.0",
+    "pubsub-js": "^1.7.0",
+    "react": "16.11.0",
+    "react-dom": "16.11.0",
+    "react-transition-group": "^4.3.0",
+    "styled-components": "^4.4.1",
+    "universal-cookie": "^4.0.2"
+  },
+  "devDependencies": {
+    "@zeit/next-bundle-analyzer": "^0.1.2",
+    "babel-plugin-styled-components": "^1.10.6",
+    "cross-env": "^6.0.3"
+  }
+}
