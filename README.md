@@ -2,16 +2,16 @@
 next.js, styled-components, react hooks, fluxtools
 
 ### Javascript libraries
-Next.js [https://nextjs.org/]()  
-FluxTools [https://www.npmjs.com/package/@arwidt/fluxtools]()  
-PubSub-js [https://www.npmjs.com/package/pubsub-js]()  
+[Next.js](https://nextjs.org/)  
+[FluxTools](https://www.npmjs.com/package/@arwidt/fluxtools)  
+[PubSub-js](https://www.npmjs.com/package/pubsub-js)  
 
 ### Styling
-Styled-Components [https://www.styled-components.com/]()  
-Breakpoints [https://tobbelindstrom.com/blog/how-to-create-a-breakpoint-mixin-with-styled-components/]()  
+[Styled-Components](https://www.styled-components.com/)  
+[Breakpoints](https://tobbelindstrom.com/blog/how-to-create-a-breakpoint-mixin-with-styled-components/)  
 
 ### Other libs
-NProgress [https://ricostacruz.com/nprogress/]()  
+[NProgress](https://ricostacruz.com/nprogress/)  
 
 ### Init the project
 
