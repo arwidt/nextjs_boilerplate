@@ -4,8 +4,7 @@ import PropTypes from 'prop-types'
 
 // Style imports
 import styled from 'styled-components';
-import { colors, shadows } from 'global/style/variables';
-import { above, below, gridmargins, breakpoints, sitewidth } from 'global/style/breakpoint';
+import { colors, shadows } from '../../global/style/variables';
 
 // Styled components
 const StyledButton = styled.button`
@@ -17,9 +16,11 @@ const StyledButton = styled.button`
 `;
 
 /**
- * Button
- *
- * @param {Object} 
+ * @function Button
+ * @param  {String} className Pass through the classname to be able to extend the button style
+ * @param  {String} children The label of the button
+ * @param  {Func} onClick The passed through click event
+ * @return {React:jsx} returns a react render;
  */
 const Button = ({ className, children, onClick }) => {
   return (
@@ -27,6 +28,12 @@ const Button = ({ className, children, onClick }) => {
       {children}
     </StyledButton>
   );
+}
+
+Button.propTypes = {
+  className: PropTypes.string,
+  children: PropTypes.string,
+  onClick: PropTypes.func
 }
 
 export default Button;
